@@ -3,6 +3,7 @@ import { FaMinus } from "react-icons/fa";
 const FAQ = () => {
     return (
         <div className="flex mt-32">
+            {/* mobile */}
             <div className="md:hidden flex flex-col container mx-auto mt-32 border">
                 <div className="flex justify-between text-center items-center px-2">
                     <div className="px-6 border border-black"/>

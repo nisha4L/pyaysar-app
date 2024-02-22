@@ -4,6 +4,7 @@ import Link from "next/link";
 const Header =() => {
     return(
         <header className=" flex mx-auto container justify-between">
+            {/* Mobile */}
             <div className=" md:hidden flex gap-5 items-center justify-between container px-4 pt-[7px]">
                 <Image
                     src="/images/logo.png"
@@ -31,6 +32,7 @@ const Header =() => {
                     />
                 </div>
             </div>
+            {/* Desktop */}
             <div className="md:flex  hidden mx-auto container  justify-around py-[19px]">
                     <div className="flex ml-6  gap-5 items-center">
                         <Image

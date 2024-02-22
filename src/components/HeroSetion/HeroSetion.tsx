@@ -5,6 +5,7 @@ import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 const HeroSection = () => {
     return(
        <>
+       {/* Mobile */}
        <div className="mt-16 px-2 container mx-auto md:hidden">
             <div className="flex-col justify-center">
                 <h1 className="text-center text-[#2D36FB]  font-bold tracking-wide text-[25px]">Stop Wasting</h1>
@@ -31,6 +32,7 @@ const HeroSection = () => {
                 </button>
             </div>
         </div>
+        {/* Desktop */}
         <div className="hidden md:flex flex-col container mx-auto  mt-10 justify-center text-center">
             <h1 className="text-center text-5xl text-[#2D36FB] font-bold tracking-wide">
                 Stop Wasting

@@ -4,6 +4,7 @@ import colour from "../../../public/images/Vector 17.svg";
 const Contact = () => {
     return(
         <div className="flex mt-14">
+            {/* Mobile */}
            <div className="flex flex-col container mx-auto pt-4 md:hidden">
                 <div className="flex justify-between text-center items-center px-2">
                     <div className="px-6 border border-black"/>
@@ -62,6 +63,7 @@ const Contact = () => {
                 </div>
                 </div>
            </div>
+           {/* Desktop */}
            <div className="hidden md:flex flex-col container mx-auto pt-6  ">
                 <div className="flex justify-around text-center items-center">
                     <div className="px-24 border border-black"/>
