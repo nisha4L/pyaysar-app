@@ -3,6 +3,7 @@ import Image from "next/image";
 const About = () => {
     return(
         <>
+        {/* desktop */}
         <div className="hidden md:flex flex-col container mx-auto pt-4">
             <div className="flex justify-around text-center items-center">
                 <div className="px-24 border border-black"/>
@@ -46,6 +47,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        {/* Mobile */}
         <div className="flex flex-col container mx-auto pt-4 md:hidden">
             <div className="flex justify-between text-center items-center px-2">
                 <div className="px-6 border border-black"/>
