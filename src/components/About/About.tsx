@@ -4,7 +4,7 @@ const About = () => {
     return(
         <>
         {/* desktop */}
-        <div className="hidden md:flex flex-col container mx-auto pt-4">
+        <div className="hidden md:flex flex-col mt-24 container mx-auto pt-4">
             <div className="flex justify-around text-center items-center">
                 <div className="px-24 border border-black"/>
                 <div className="w-[333px] h-[123px] flex flex-col text-center">
@@ -48,13 +48,13 @@ const About = () => {
             </div>
         </div>
         {/* Mobile */}
-        <div className="flex flex-col container mx-auto pt-4 md:hidden">
+        <div className="flex flex-col container mx-auto pt-4 md:hidden mt-12">
             <div className="flex justify-between text-center items-center px-2">
                 <div className="px-6 border border-black"/>
                 <h1 className="font-bold w-[248px] h-[60px] text-[20px]">Making Invoicing Effortless</h1>
                 <div className="px-6 border border-black"/>
             </div>
-            <p className="text-center py-6 text-[13px] text-[#757572]">About Us</p>
+            <p className="text-center pb-6 pt-2 text-[13px] text-[#757572]">About Us</p>
             <div className="w-[332px] h-[208px]  mx-auto flex flex-col">
                 <h1 className="font-bold text-[19px] py-1">At Pyaysar</h1>
                 <p className="pt-3 text-[13px] text-left font-[400]">
