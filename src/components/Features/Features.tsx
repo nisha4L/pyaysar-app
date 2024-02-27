@@ -75,7 +75,7 @@ const Features = () => {
                         </div>
                     </div>
                     <div className="flex container justify-around  mt-4">
-                        <div className="container flex flex-col mx-auto border border-black rounded-lg w-[333px] h-[232px] mt-10">
+                        <div className="container flex flex-col mx-auto border border-black rounded-lg w-[333px] h-[232px] mt-6">
                             <h1 className="px-4 text-[16px] font-medium py-6">
                                 Payment Tracking
                             </h1>
@@ -95,7 +95,7 @@ const Features = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="container flex flex-col mx-auto border border-black rounded-lg w-[333px] h-[232px] mt-10">
+                        <div className="container flex flex-col mx-auto border border-black rounded-lg w-[333px] h-[232px] mt-6">
                             <h1 className="px-4 text-[16px] font-medium py-6">
                                 Customization
                             </h1>

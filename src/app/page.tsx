@@ -1,4 +1,5 @@
 import About from "@/components/About/About";
+import Accordian from "@/components/Accordian/Accordian";
 import Contact from "@/components/Contact/Contact";
 import FAQ from "@/components/FAQ/FAQ";
 import Features from "@/components/Features/Features";
@@ -11,7 +12,8 @@ const Home = () => {
       <Features/>
       <About/>
       <Contact/>
-      <FAQ/>
+      {/* <FAQ/> */}
+      <Accordian/>
     </>
   )
 };

@@ -1,7 +1,40 @@
+"use client";
+
+import { useState } from "react";
 import { FaArrowRight, FaMinus, FaPlus } from "react-icons/fa";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 
 const FAQ = () => {
+
+    const AccordianData = [
+        {
+            id : 1,
+            title : "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+            content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip labore et dolore magna aliqua."
+        },
+        {
+            id : 2,
+            title : "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+            content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip labore et dolore magna aliqua."
+        },
+        {
+            id : 3,
+            title : "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+            content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip labore et dolore magna aliqua."
+        },
+        {
+            id : 4,
+            title : "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+            content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip labore et dolore magna aliqua."
+        },
+        {
+            id : 5,
+            title : "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+            content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip labore et dolore magna aliqua."
+        }
+    ]
+
+
     return (
         <div className="flex mt-32">
             {/* mobile */}
