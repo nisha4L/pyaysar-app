@@ -1,7 +1,68 @@
+"use client";
+
 import { FaArrowRight } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import { IoIosArrowForward } from "react-icons/io";
+import { useState } from "react";
 
 const Features = () => {
+
+    const featuresData = [
+        {
+            id: 1,
+            title: "PDF Generation",
+          },
+        
+          {
+            id: 2,
+            title: "Invoice Generation",
+          },
+          {
+            id: 3,
+            title: "Dashboard Overview",
+          },
+          {
+            id: 4,
+            title: "Payment Tracking",
+          },
+          {
+            id: 5,
+            title: "Automated Calculation",
+          },
+          {
+            id: 6,
+            title: "Customization",
+          },
+          {
+            id: 7,
+            title: "Client Management",
+          },
+          {
+            id: 8,
+            title: "Product and Service Catalog",
+          },
+          {
+            id: 9,
+            title: "Finical Report",
+          },
+          {
+            id: 10,
+            title: "Finical Report",
+          },
+    ];
+
+    const sliderSettings = {
+        speed : 500,
+        slidesToShow : 1,
+        infinite : true,
+        autoplay : true,
+        autoplaySpeed : 2000,
+        slidesToScroll: 1,
+        dots :false,
+    };
+
     return(
         <div className="flex flex-col container mx-auto">
             {/* mobile */}
@@ -14,7 +75,7 @@ const Features = () => {
                     <div className="px-6 border border-black"/>
                 </div>
                 <p className="text-center pb-6 text-[13px] text-[#757572]">Our Features</p>
-                <div className=" flex items-center justify-between pt-4">
+                {/* <div className=" flex items-center justify-between pt-4">
                     <div className="container flex flex-col mx-auto border border-black rounded-lg w-[248px] h-[209px] mr-2">
                         <h1 className="px-4 text-[16px] font-medium py-6">
                             Invoice Generation
@@ -28,7 +89,28 @@ const Features = () => {
                     <div className="pt-4  pr-6">
                         <IoIosArrowForward className="text-3xl"/>
                     </div>
-                </div>
+                </div> */}
+              <div className="flex container mx-auto">
+              <div className="w-[250px] container ml-16">
+               <Slider {...sliderSettings}>
+                    {featuresData.map((item) => (
+                        <div key={item.id} className="flex-col container mx-auto border border-black rounded-lg w-[248px] h-[209px] mr-2">
+                            <h1 className="px-4 text-[16px] font-medium py-6"> 
+                                {item.title}
+                            </h1>
+                            <div className="pt-16 px-[182px]">
+                                <div className="bg-black rounded-lg w-[44px] h-[32px] flex items-center justify-center">
+                                    <FaArrowRight className="text-xl text-white"/>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+               </Slider>
+               </div>
+                    <button className="pt-4 ml-5">
+                        <IoIosArrowForward className="text-3xl"/>
+                    </button>
+              </div>
             </div>
             {/* desktop */}
             <div className="hidden md:flex flex-col container mx-auto  mt-32">
