@@ -1,5 +1,4 @@
 import Image from "next/image";
-import colour from "../../../public/images/Vector 17.svg";
 
 const Contact = () => {
     return(
@@ -17,32 +16,6 @@ const Contact = () => {
                     Feel free to get in touch with us if you have any <span className="text-[#2D36FB]">questions, suggestions, or inquiries</span>.
                     Our dedicated team is here to assist you. You can reach out to us through the contact form below
                 </p>
-                {/* <div className="flex container mx-auto px-8 justify-between items-center pt-4">
-                    <span className="relative px-12 ">
-                        <Image 
-                            src="/images/contact2.png"
-                            alt="Contact2"
-                            width={96}
-                            height={73}
-                        />
-                    </span>
-                    <span className="absolute  p-[99px]">
-                        <Image 
-                            src="/images/contact1.png"
-                            alt="Contact2"
-                            width={79}
-                            height={71}
-                        />
-                    </span>
-                    <span className="absolute px-[102px] pr-0 pt-5">
-                        <Image
-                            src={colour}
-                            alt="Yellow"
-                            width={67}
-                            height={42}
-                        />
-                    </span>
-                </div> */}
                     <div className="flex container mx-auto justify-center pt-3">
                         <Image
                             src="/images/group.png"
@@ -51,16 +24,6 @@ const Contact = () => {
                             height={80}
                         />
                     </div>
-                {/* <div className="flex mx-auto container  pt-3 px-3">
-                    <div className="border border-black rounded-lg  w-[300px] h-[44px] justify-between flex">
-                        <p className="font-light text-[11px] text-[#757572] px-2 pt-3">Enter your email address</p>
-                        <div className="pt-2 pr-2">
-                        <div className="bg-black rounded-lg w-[75px] h-[26px]">
-                            <p className="text-white text-[9px] px-3 py-1.5">Contact us</p>
-                        </div>
-                        </div>
-                    </div>
-                </div> */}
                 <div className="flex mx-auto container pt-3 px-3 flex-row">
                     <div className="border border-black rounded-lg  w-[300px] h-[44px] justify-between flex">
                         <input
@@ -102,14 +65,6 @@ const Contact = () => {
                         Feel free to get in touch with us if you have any <span className="text-[#2D36FB]">questions, suggestions, or inquiries</span>.
                         Our dedicated team is here to assist you. You can reach out to us through the contact form below
                         </p>
-                        {/* <form className="pt-[24px]">
-                            <input type="email" name="email" placeholder="Enter Your Email" className="border border-black rounded-lg  w-[599px] h-[62px] justify-between flex"/>
-                            <div className="pt-2 pr-2">
-                                        <div className="bg-black rounded-lg w-[132px] h-[46px]">
-                                            <p className="text-white text-[16px] px-5 py-2.5">Contact us</p>
-                                        </div>
-                                    </div>
-                        </form> */}
                         <div className="pt-[24px]">
                             <div className="border border-black rounded-lg  w-[599px] h-[62px] justify-between flex">
                                 <input
