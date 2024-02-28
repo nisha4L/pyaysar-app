@@ -71,13 +71,18 @@ const Accordian = () => {
                             <h2 className="text-[19px] font-medium pt-3 tracking-wide">Run your business with confidence</h2>
                         </div>
                         <div className="pt-[24px] flex items-center justify-center">
-                            <div className="border border-black rounded-lg  w-[599px] h-[62px] justify-between flex">
-                                <p className="font-light text-[16px] text-[##757572] px-2 pt-5">Enter your email address</p>
-                                    <div className="pt-2 pr-2">
-                                        <div className="bg-black rounded-lg w-[132px] h-[46px]">
-                                            <p className="text-white text-[16px] px-8 py-2.5">Subcribe</p>
-                                        </div>
-                                    </div>
+                        <div className="border border-black rounded-lg  w-[599px] h-[62px] justify-between flex">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Enter Your Email Address"
+                                    className="flex placeholder:font-light w-full placeholder:text-[16px] placeholder:text-[#757572] placeholder:px-2 placeholder:pt-5"
+                                />
+                                <div className="pt-2 pr-2">
+                                    <button className="bg-black rounded-lg w-[132px] h-[46px]">
+                                        <p className="text-white text-[16px] font-medium px-6 py-2.5">Subcribe</p>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -90,13 +95,18 @@ const Accordian = () => {
                                 </div>
                                 <div className="pt-8 flex justify-center">
                                     <div className="border border-black rounded-lg  w-[300px] h-[44px] justify-between flex">
-                                        <p className="font-light text-[11px] text-[#757572] px-2 pt-3">Enter your email address</p>
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            placeholder="Enter Your Email Address"
+                                            className="flex w-full placeholder:font-light placeholder:text-[11px] placeholder:text-[#757572] placeholder:px-2 placeholder:pt-3"
+                                        />
                                         <div className="pt-1.5 pr-2">
-                                            <div className="bg-black rounded-lg w-[44px] h-[32px] flex items-center justify-center">
+                                            <button className="bg-black rounded-lg w-[44px] h-[32px] flex items-center justify-center">
                                                 <FaArrowRight className="text-xl text-white"/>
-                                            </div>
+                                            </button>
                                         </div>
-                                    </div>
+                    </div>
                                 </div>
                             </div>
                         </div>

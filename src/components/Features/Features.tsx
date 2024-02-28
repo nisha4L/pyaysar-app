@@ -84,7 +84,7 @@ const Features  = () => {
                             <h1 className="px-4 text-[16px] font-medium py-6"> 
                                 {data.title}
                             </h1>
-                            <div className="pt-16 px-[182px]">
+                            <div className="px-[182px] pt-16">
                                 <div className="bg-black rounded-lg w-[44px] h-[32px] flex items-center justify-center">
                                     <FaArrowRight className="text-xl text-white"/>
                                 </div>
@@ -92,7 +92,6 @@ const Features  = () => {
                         </div>
                     ))}
                </Slider>
-               {/* <CardSlider data={data} interval={5000}/> */}
                </div>
                {/* this might be error but don't panic.it works */}
                <button onClick={() => sliderRef.current.slickNext()} className="pt-4 ml-5"> 

@@ -51,13 +51,28 @@ const Contact = () => {
                             height={80}
                         />
                     </div>
-                <div className="flex mx-auto container  pt-3 px-3">
+                {/* <div className="flex mx-auto container  pt-3 px-3">
                     <div className="border border-black rounded-lg  w-[300px] h-[44px] justify-between flex">
                         <p className="font-light text-[11px] text-[#757572] px-2 pt-3">Enter your email address</p>
                         <div className="pt-2 pr-2">
                         <div className="bg-black rounded-lg w-[75px] h-[26px]">
                             <p className="text-white text-[9px] px-3 py-1.5">Contact us</p>
                         </div>
+                        </div>
+                    </div>
+                </div> */}
+                <div className="flex mx-auto container pt-3 px-3 flex-row">
+                    <div className="border border-black rounded-lg  w-[300px] h-[44px] justify-between flex">
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Enter Your Email Address"
+                            className="flex placeholder:font-light placeholder:text-[11px] placeholder:text-[#757572] placeholder:px-2 placeholder:pt-3"
+                        />
+                        <div className="pt-2 pr-2">
+                            <button className="bg-black rounded-lg w-[75px] h-[26px]">
+                                <p className="text-white text-[9px] px-3 py-1.5">Contact us</p>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -87,14 +102,27 @@ const Contact = () => {
                         Feel free to get in touch with us if you have any <span className="text-[#2D36FB]">questions, suggestions, or inquiries</span>.
                         Our dedicated team is here to assist you. You can reach out to us through the contact form below
                         </p>
-                        <div className="pt-[24px]">
-                            <div className="border border-black rounded-lg  w-[599px] h-[62px] justify-between flex">
-                                <p className="font-light text-[16px] text-[##757572] px-2 pt-5">Enter your email address</p>
-                                    <div className="pt-2 pr-2">
+                        {/* <form className="pt-[24px]">
+                            <input type="email" name="email" placeholder="Enter Your Email" className="border border-black rounded-lg  w-[599px] h-[62px] justify-between flex"/>
+                            <div className="pt-2 pr-2">
                                         <div className="bg-black rounded-lg w-[132px] h-[46px]">
                                             <p className="text-white text-[16px] px-5 py-2.5">Contact us</p>
                                         </div>
                                     </div>
+                        </form> */}
+                        <div className="pt-[24px]">
+                            <div className="border border-black rounded-lg  w-[599px] h-[62px] justify-between flex">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Enter Your Email Address"
+                                    className="flex placeholder:font-light w-full placeholder:text-[16px] placeholder:text-[#757572] placeholder:px-2 placeholder:pt-5"
+                                />
+                                <div className="pt-2 pr-2">
+                                    <div className="bg-black rounded-lg w-[132px] h-[46px]">
+                                        <p className="text-white text-[16px] px-5 py-2.5">Contact us</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

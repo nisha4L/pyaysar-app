@@ -8,7 +8,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 
 const Footer = () => {
     return(
-        <footer className="flex flex-col container mx-auto mt-24">
+        <footer className="flex flex-col container justify-around mx-auto mt-24">
             {/* Desktop */}
             <div className="hidden md:flex container  justify-around  px-32 mx-auto pr-0">
             <div className="flex flex-col w-full mx-auto pr-32">
